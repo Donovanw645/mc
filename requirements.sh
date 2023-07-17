@@ -20,6 +20,9 @@ sleep 1
 echo "60%"
 sudo apt install screen
 sleep 1
+echo "downloading the server jarfile"
+wget https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar
+sleep 1
 echo "80%"
 sudo ufw allow 25565
 sleep 1
