@@ -21,7 +21,7 @@ echo "60%"
 sudo apt install screen
 sleep 1
 echo "downloading the server jarfile"
-wget https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar
+wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar
 sleep 1
 echo "80%"
 sudo ufw allow 25565
